@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Database Questions Answers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h2 {
+      color: #444;
+    }
+    .question {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+    }
+    .answer {
+      background-color: #e0ffe0;
+      padding: 10px;
+      margin-top: 5px;
+      border-left: 4px solid green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Relational Algebra & Database Concepts - Answers</h1>
+
+  <div class="question">
+    <h2>1. Extract river names and lengths</h2>
+    <div class="answer">b) π<sub>RiverName, Length</sub>(RiverDetails)</div>
+  </div>
+
+  <div class="question">
+    <h2>2. Candidate key for RiverDetails</h2>
+    <div class="answer">c) {RiverName}</div>
+  </div>
+
+  <div class="question">
+    <h2>3. Output common in two tables</h2>
+    <div class="answer">Intersection: RiverDetails₁ ∩ RiverDetails₂</div>
+  </div>
+
+  <div class="question">
+    <h2>4. Rivers with Brazil or Length ≥ 6500</h2>
+    <div class="answer">a) σ(Country='Brazil') ∨ (Length≥6500) (RiverDetails)</div>
+  </div>
+
+  <div class="question">
+    <h2>5. Invalid tuple in StudentGrades</h2>
+    <div class="answer">c) S101, CS101, B, Spring2024</div>
+  </div>
+
+  <div class="question">
+    <h2>6. RA1 and RA2 comparison</h2>
+    <div class="answer">a) RA₁ ⊂ RA₂</div>
+  </div>
+
+  <div class="question">
+    <h2>7. Primary key in university_admissions</h2>
+    <div class="answer">c) university and student_id</div>
+  </div>
+
+  <div class="question">
+    <h2>8. Correct statements about schemas</h2>
+    <div class="answer">
+      ✓ c) Course(course_id, title) defines a logical schema<br>
+      ✓ d) (‘CS101’, ‘Databases’) is an instance of a physical schema
+    </div>
+  </div>
+
+</body>
+</html>
